@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+h1 {
+    text-align: center;
+}
+section {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    display: flex;
+}
+.hero {
+    max-width: 400px;
+    margin: 0 auto;
+    width: 33.33%;
+}
+
+img {
+    max-width: 250px;
+}
+@media (max-width: 991px) {
+    section {
+        flex-direction: column;
+    }
+    .filters {
+        text-align: center;
+    }
+}
